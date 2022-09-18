@@ -1,0 +1,264 @@
+.bg-img1{
+    background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img2{
+    background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img3{
+    background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img4{
+    background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/slide02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.overflow{overflow: hidden;}
+
+.filter{filter: grayscale(1);}
+
+
+.brt{
+    border: 2px solid black;
+    width: 30px;
+}
+.brt2{
+    border: 2px solid white;
+    width: 30px;
+}
+
+
+.fs-60{font-size: 60px;}
+.fs-30{font-size: 30px;}
+.fs-20{font-size: 20px;}
+.fs-19{font-size: 19px;}
+.fs-14{font-size: 14px;}
+
+
+.t-5{transition: .5s;}
+
+
+.py-200{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pb-200{padding-bottom: 200px;}
+.pt-100{padding-top: 100px;}
+
+
+.text-grey{color: grey;}
+.text-green{color: #1ABC9C;}
+
+
+.bg-black{background-color: #262626;}
+.bg-green{background-color: #1ABC9C;}
+.bg-grey{background-color: #F6F6F6;}
+.text-grey1{color: #c0c0c0;}
+
+button{
+    outline: none;
+    border: 0;
+}
+
+
+.border1{border: 2px solid white;}
+.border2{border: 2px solid black;}
+.border3{border: 2px solid grey;}
+
+
+
+
+.br-100{border-radius: 100%;}
+.br-5{border-radius: 5px;}
+
+.w-60{width: 60% ;}
+
+.hover1:hover{
+  background-color: #1ABC9C;
+  color: white;
+}
+.hover2:hover{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black !important;
+}
+.hover3:hover{
+  background-color: white;
+  color: grey !important;
+}
+.hover4:hover{
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+.hover5:hover{
+    background-color: #1ABC9C;
+    color: white !important;
+    border: 2px solid #1ABC9C;
+}
+.hover6:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.hover7:hover{
+    filter: brightness(1);
+}
+.hover8:hover{
+    color: white;
+}
+.hover9:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+/* Dropdown-start1 */
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: grey;
+    transition: .5s;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  
+  
+/* Dropdown-end1 */
+
+
+/* Dropdown-start2 */
+.dropbtn2 {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: grey;
+    transition: .5s;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 a:hover {color: white;}
+  
+  .dropdown2:hover .dropdown-content2 {display: block;}
+
+/* Dropdown-end2 */
+
+
+
+
+
+.overlay {
+    position: absolute;
+  }
+.clm {
+    padding: 0;
+    position: relative;
+  }
+ .clm .overlay {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 0.5s;
+    opacity: 0;
+  }
+   .clm .overlay h5 {
+    padding-top: 6rem;
+    color: white;
+  }
+  
+  
+   .clm:hover .overlay {
+    width: 100%;
+    opacity: 0.8;
+  }
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+	.fs-sm-18{ font-size: 17px }
+	.fs-sm-11{ font-size: 11px }
+	.fs-sm-14{ font-size: 14px; }
+    .pt-sm-50{padding-top: 50px;}
+    .pt-sm-30{padding-top: 20px;}
+
+	.d-sm-block{ display: block; }
+    .d-sm-none{display: none;}
+	.w-sm-100{ width: 100%; }
+    .text-sm-center{text-align: center;}
+
+}
+
+
+
+
